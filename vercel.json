@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "name": "google_keep_notes_backend",
   "builds": [{ "src": "src/server.js", "use": "@vercel/node" }],
   "routes": [{ "src": "/(.*)", "dest": "src/server.js" }]
