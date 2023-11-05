@@ -19,8 +19,6 @@ mongoose
     app.use('/api', require('./routes/notes'));
   });
 
-app.get("/", (req,res) => res.send("<h1>Google Keep Notes Backend</h1>"));
-
 // listening to the port 
 app.listen(PORT, () =>{
   console.log(`Listening to PORT: ${PORT}`);
