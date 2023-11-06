@@ -16,7 +16,6 @@ mongoose
   )
   .then(() => {
     console.log("connected to MongoDB database");
-    app.use('/api', require('./routes/notes'));
   });
 
 // listening to the port 
